@@ -11,6 +11,7 @@ use OpenTelemetry\API\Instrumentation\CachedInstrumentation;
 use OpenTelemetry\API\Logs\LogRecord;
 use OpenTelemetry\API\Logs\Severity;
 use TypeError;
+use Monolog\Logger as MonologLogger;
 
 class LogWatcher extends Watcher
 {
